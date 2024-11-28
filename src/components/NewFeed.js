@@ -14,29 +14,23 @@ const NewsFeed = () => {
 
   return (
     <div className="container my-4">
-      <div className="row" >
-        <div className="col-md-8"  
-
-        >
-          <h2>Top Celebrity News</h2>
-          {articles.length > 0 ? (
-            articles.map((article, index) => (
-              <div key={index} className="card mb-3">
-                <img src={article.image} className="card-img-top" alt={article.title} 
-                />
+      <div className="row">
+        <h2>Top Celebrity News</h2>
+        {articles.length > 0 ? (
+          articles.map((article, index) => (
+            <div key={index} className="col-md-6">
+              <div className="card mb-3">
+                <img src={article.image} className="card-img-top" alt={article.title} />
                 <div className="card-body">
                   <h5 className="card-title">{article.title}</h5>
                   <p className="card-text">{article.description}</p>
                 </div>
               </div>
-            ))
-          ) : (
-            <p>Loading...</p>
-          )}
-        </div>
-        <div className="col-md-4">
-
-        </div>
+            </div>
+          ))
+        ) : (
+          <p>Loading...</p>
+        )}
       </div>
     </div>
   );

@@ -1,63 +1,66 @@
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-dark text-white">
-      <div className="container py-3">
-        <div className="d-flex flex-wrap justify-content-between align-items-start text-center text-md-start">
-        
-          <div className="footer-section">
-            <h4>About Us</h4>
-            <p>
-              Bringing you the latest updates and trending stories from the entertainment world. Your go-to platform for celebrity news and pop culture.
-            </p>
-          </div>
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-content row">
+          {/* About Us */}
+          <div className="col-lg-3 col-md-6 footer-section">
+  <h5 className="footer-title">About Us</h5>
+  <p className="footer-text">
+    Stay updated with the latest news, trends, and stories from the entertainment world. Your one-stop platform for celebrity updates and pop culture insights.
+  </p>
+</div>
 
-          
-          <div className="footer-section">
-            <h4>Quick Links</h4>
-            <ul className="list-unstyled">
-              <li><a href="#home" className="footer-link">Home</a></li>
-              <li><a href="#newsfeed" className="footer-link">Newsfeed</a></li>
-              <li><a href="#cinema" className="footer-link">Cinema</a></li>
-              <li><a href="#lifestyle" className="footer-link">Lifestyle</a></li>
-              <li><a href="#privacy-policy" className="footer-link">Privacy Policy</a></li>
+
+          {/* Quick Links */}
+          <div className="col-lg-2 col-md-3 footer-section">
+            <h5 className="footer-title">Quick Links</h5>
+            <ul className="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#newsfeed">Newsfeed</a></li>
+              <li><a href="#cinema">Cinema</a></li>
+              <li><a href="#lifestyle">Lifestyle</a></li>
+              <li><a href="#privacy-policy">Privacy Policy</a></li>
             </ul>
           </div>
 
-         
-          <div className="footer-section">
-            <h4>Follow Us</h4>
-            <div className="d-flex gap-3 justify-content-center justify-content-md-start">
-              <a href="#facebook" className="social-icon" aria-label="Facebook">
+          {/* Follow Us */}
+          <div className="col-lg-3 col-md-3 footer-section">
+            <h5 className="footer-title">Follow Us</h5>
+            <div className="social-icons d-flex flex-wrap">
+              <a href="#facebook" aria-label="Facebook" className="social-icon">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#twitter" className="social-icon" aria-label="Twitter">
+              <a href="#twitter" aria-label="Twitter" className="social-icon">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#instagram" className="social-icon" aria-label="Instagram">
+              <a href="#instagram" aria-label="Instagram" className="social-icon">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#linkedin" className="social-icon" aria-label="LinkedIn">
+              <a href="#linkedin" aria-label="LinkedIn" className="social-icon">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>
 
-         
-          <div className="footer-section">
-            <h4>Contact Us</h4>
-            <p><i className="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
-            <p><i className="fas fa-envelope"></i> support@celebritynews.com</p>
-            <p><i className="fas fa-map-marker-alt"></i> 123 Celebrity Lane, Los Angeles, CA</p>
+          {/* Contact Us */}
+          <div className="col-lg-3 col-md-6 footer-section">
+            <h5 className="footer-title">Contact Us</h5>
+            <ul className="footer-contact">
+              <li><i className="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+              <li><i className="fas fa-envelope"></i> support@celebritynews.com</li>
+              <li><i className="fas fa-map-marker-alt"></i> 123 Celebrity Lane, Los Angeles</li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div className="footer-bottom text-center py-2">
+      {/* Footer Bottom */}
+      <div className="footer-bottom text-center py-3">
         <p>&copy; 2024 Celebrity News. All Rights Reserved.</p>
       </div>
     </footer>

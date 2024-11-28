@@ -7,6 +7,7 @@ body, h1, h2, h4, p, ul, li, a {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  padding-top: 80px;
 }
 
 .header {
@@ -28,11 +29,25 @@ body {
   margin-top: 10px;
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #333;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999; /* Keeps navbar on top of other content */
+  padding: 10px 0; /* Adjust padding for your preference */
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 5px;
+  }
 }
 
 .navbar .nav-item .btn {
@@ -367,17 +382,20 @@ body {
   outline: none;
 }
 
+
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Flexible columns */
   gap: 20px;
   width: 100%;
   max-width: 1200px;
+  padding: 10px;
 }
 
 .highlighted-news {
-  grid-column: span 2;
+  grid-column: span 2; /* This will span two columns on larger screens */
   text-align: center;
+  margin-bottom: 20px; /* Ensure spacing after highlighted news */
 }
 
 .highlighted-image {
@@ -395,6 +413,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s;
+  margin-bottom: 20px; /* Ensure spacing between each news card */
 }
 
 .news-card:hover {
@@ -417,4 +436,35 @@ body {
   color: gray;
   padding: 10px;
   text-align: center;
+}
+
+/* Responsive Design for Smaller Screens */
+
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust for medium screens */
+  }
+
+  .highlighted-news {
+    grid-column: span 1; /* Make highlighted news span one column on medium screens */
+  }
+
+  .news-card {
+    margin-bottom: 20px; /* Ensure space between cards */
+  }
+}
+
+@media (max-width: 480px) {
+  .news-grid {
+    grid-template-columns: 1fr; /* Stack the items in a single column on small screens */
+    padding: 5px; /* Adjust padding for small screens */
+  }
+
+  .highlighted-news {
+    grid-column: span 1; /* Ensure highlighted news spans one column */
+  }
+
+  .news-card {
+    margin-bottom: 15px; /* Adjust bottom margin for better spacing */
+  }
 }

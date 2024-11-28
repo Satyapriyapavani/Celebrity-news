@@ -87,7 +87,7 @@ const LifestylePage = () => {
     <div className="lifestyle-container">
       <ToastContainer position="top-right" autoClose={3000} />
 
-      <h1 className="page-title">Celebrity News</h1>
+      <h1 className="page-title">Celebrity Lifestyle</h1>
 
       <button
         className="post-button"
