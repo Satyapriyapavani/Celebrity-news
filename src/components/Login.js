@@ -20,19 +20,36 @@ const LoginPage = ({ handleLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     if (!formData.email || !formData.password) {
       setError("Both fields are required!");
       return;
     }
-
-    console.log("User logged in:", formData);
-
-    handleLogin();
-
-    navigate("/newsfeed");
+  
+    // Store user email and password in localStorage
+    localStorage.setItem("email", formData.email);
+    localStorage.setItem("password", formData.password);
+  
+    // Simulate login process (You can replace this with a real authentication process)
+    fetch("http://localhost:5000/users")
+      .then((response) => response.json())
+      .then((data) => {
+        const user = data.find(
+          (user) => user.email === formData.email && user.password === formData.password
+        );
+        if (user) {
+          handleLogin();
+          navigate("/profile"); // Navigate to profile after successful login
+        } else {
+          setError("Invalid email or password");
+        }
+      })
+      .catch((error) => {
+        console.error("Error checking user credentials:", error);
+        setError("Failed to authenticate.");
+      });
   };
-
+  
   return (
     <div className="container" style={{ maxWidth: "600px", marginTop: "50px" }}>
       <h2 className="text-center">Login</h2>

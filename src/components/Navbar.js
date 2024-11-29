@@ -164,6 +164,12 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
                 Notifications
               </Link>
             </li>
+            <li className="nav-item">
+                <Link className="nav-link" to="/profile" onClick={closeMenu}>
+                  Profile
+                </Link>
+              </li>
+
             {isLoggedIn ? (
               <li className="nav-item">
                 <button className="btn btn-light" onClick={() => { handleLogout(); closeMenu(); }}>

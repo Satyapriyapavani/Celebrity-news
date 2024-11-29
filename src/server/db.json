@@ -1,63 +1,63 @@
 {
   "hindiMovies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Jawan",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLs4pvcxDeXc0mEnOxtpuUT8L_oMj915D6Zg&s",
       "releaseDate": "2024-12-15",
       "description": "A high-octane action thriller with Shah Rukh Khan."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Dunki",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYfULEa9LyIMmVw_I7ev5K6RX5MKflbCaWA&s",
       "releaseDate": "2025-01-26",
       "description": "A unique journey across India, starring Rajkummar Rao."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Tiger 3",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnI_Owh8WQuTm79Cdyl3XqiWEhlJWJaITXgg&s",
       "releaseDate": "2024-11-20",
       "description": "The epic continuation of the Tiger saga with Salman Khan."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Pathaan 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0LAkQTO_9_kFtTUd-g8L4BrwCGdwXZ00ew&s",
       "releaseDate": "2024-11-30",
       "description": "The spy action-packed sequel with Shah Rukh Khan."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Rocky Aur Rani Ki Prem Kahani",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuE7D7Tko7cOM-EHCwlFLCDstJJ8VhJi7BNA&s",
       "releaseDate": "2025-03-20",
       "description": "A romantic comedy featuring Ranveer Singh and Alia Bhatt."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Brahmastra Part 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXkbVmi92h1VwfGlcL94pBMsVTmKp6X6WBQ&s",
       "releaseDate": "2025-06-18",
       "description": "The next chapter of the grand fantasy saga with Ranbir Kapoor."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Kisi Ka Bhai Kisi Ki Jaan",
       "poster": "https://jiotvimages.cdn.jio.com/imagespublic/49/91/092ea131bd235f6d9d0507c0ab543a2c_1723105919034_l_medium.jpg",
       "releaseDate": "2024-12-25",
       "description": "A family-oriented action film starring Salman Khan."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Fighter",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQf0jCEkedCFz3KAcvzVzUnwr5Gqysm8DyOg&s",
       "releaseDate": "2025-01-14",
       "description": "An intense action drama starring Hrithik Roshan and Deepika Padukone."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Lal Singh Chaddha 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNuBM7AzwtsVXw7fuAN5dhYgJzC-VMxmLTZQ&s",
       "releaseDate": "2025-04-08",
@@ -66,63 +66,63 @@
   ],
   "teluguMovies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Salaar",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXbot9Cpu0dbu2PxzvkkWagQEbnABgTQrFjw&s",
       "releaseDate": "2024-12-01",
       "description": "A gripping story of power and revenge with Prabhas."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Pushpa: The Rule",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgc5j_xDA-hatLThElD1rk2SE4-cT_-CQltQ&s",
       "releaseDate": "2025-01-15",
       "description": "The highly anticipated sequel to Pushpa, starring Allu Arjun."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Radheshyam 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgGfh0dPJnGQi1pAw8uVUA3rZK0QcHcWvxA&s",
       "releaseDate": "2024-12-10",
       "description": "A romantic drama with Prabhas that touches hearts."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Aadipurush",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g5YpoBcTf3_s2VIDbZXIoCdL24ysDwo1jw&s",
       "releaseDate": "2025-02-15",
       "description": "A mythological epic starring Prabhas in a pivotal role."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Sarkaru Vaari Paata 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtgC6lBwcUWxRxCz6Fw0KQOuGld8K268dWsg&s",
       "releaseDate": "2025-05-21",
       "description": "The sequel to the action-packed drama starring Mahesh Babu."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vakeel Saab 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLiAU4qLInuiIvHRkpGi1OPLqPgHjzXhpitw&s",
       "releaseDate": "2025-04-10",
       "description": "The sequel to the hit courtroom drama with Pawan Kalyan."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "KGF Chapter 3",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNrMAXHY6FdFW544nKP3VBI9cqk9XaIOVL9A&s",
       "releaseDate": "2025-12-22",
       "description": "The highly awaited third installment of the KGF series starring Yash."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Jr NTR's NTR 30",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-juIV6A9jI8g-R0-wWy8giAjXp-LZRtLkg&s",
       "releaseDate": "2025-03-15",
       "description": "A high-budget action film with Jr NTR in the lead role."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Bheemla Nayak 2",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7r9ksCIXGE2WeLj-rk7ISyozeMxM-KvnjQ&s",
       "releaseDate": "2025-07-09",
@@ -131,85 +131,85 @@
   ],
   "topNews": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Celebrity A Announces Surprise Wedding",
       "details": "Celebrity A ties the knot in a private ceremony.",
       "image": "https://pagesix.com/wp-content/uploads/sites/3/2024/06/85105932.jpg?quality=75&strip=all&w=744"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Blockbuster Movie Breaks Box Office Records",
       "details": "Star-studded cast of Blockbuster Movie celebrates record-breaking success.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0R3uHH-8IU48sxbnbQkclyW6bH9DETk6RQ&s"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Celebrity Couple D Expecting First Child",
       "details": "Exciting news as Celebrity Couple D announces pregnancy.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThOOoABpevksxyTddiCjO8ZQHW8JVvV3LBeA&s"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Sports Star's Shocking Retirement Announcement",
       "details": "Sports Star leaves fans stunned with unexpected news.",
       "image": "https://images.mykhel.com/img/2020/08/raina-1597506877.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Fashion Icon Launches New Clothing Line",
       "details": "Celebrity launches chic collection for all seasons.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4fV-QcrMokpUS3tge8x8vmGk6g6VGDBB2w&s"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Controversial Interview Sparks Online Debate",
       "details": "Celebrity E's candid remarks ignite social media firestorm.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSgPnhJPJW89SA0TeWM5ApsmRk66EaZDoGxQ&s"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Musician F Goes on World Tour",
       "details": "Fans worldwide are thrilled with the upcoming tour announcement.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5U-YMT6xfXLN5fHOIeC2WWKEcqO1ttdvo8Q&s"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Reality Star G Opens New Restaurant",
       "details": "Reality Star ventures into the culinary world with an exciting concept.",
       "image": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/09/01/2535028-untitled-design-74.png"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Rising Star H Wins Breakthrough Award",
       "details": "The up-and-coming actor secures a prestigious accolade.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0-kVLSOlsTA4pINPMSovRhD74UC4JvM3RQ&s"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Singer I Releases Groundbreaking Album",
       "details": "Singer I's album debuts at the top of the charts.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE5lHFygPJCqD9gKWGN0ugEPBkrKCkZ_19mw&s"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Director J Announces Ambitious New Project",
       "details": "Director J's upcoming film promises to be a cinematic masterpiece.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEdKAudFzFqyNKIf3pVJd1L4XBtrXQEtCw&s"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Celebrity K Hosts Charity Event",
       "details": "Celebrity K raises millions for a good cause.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYmepBeY2SIvs4KrqZgzlYRqBp1exAy5vHTw&s"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Athlete L Sets World Record",
       "details": "Athlete L shatters records in an unforgettable performance.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkrtU581xIVyhg5om6M7WcKQiQWhxd6sQxQQ&s"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Fashion Week Highlights Stunning Designs",
       "details": "The biggest names in fashion showcase their latest creations.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6T8RDS78kzt9t9AraAI-G0wDn4_UGhJhAyA&s"
@@ -219,86 +219,97 @@
     {
       "title": "Aishwarya silences divorce rumors as she flaunts wedding ring",
       "image": "https://images.filmibeat.com/img/2024/11/newproject-2024-11-21t212723-134-1732204657.jpg",
-      "description": "Aishwarya Rai Bachchan flaunts her wedding ring in her latest photo."
+      "description": "Aishwarya Rai Bachchan flaunts her wedding ring in her latest photo.",
+      "id": "1f4c"
     },
     {
       "title": "How Zomato CEO Deepinder Goyal met his wife",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGuKBbN9HJq1H6vzkMMxENuWcJFqsHG5hnrw&s",
-      "description": "A story about Zomato CEO's personal life journey."
+      "description": "A story about Zomato CEO's personal life journey.",
+      "id": "4925"
     },
     {
       "title": "Shah Rukh Khan’s upcoming film gets a new director",
       "image": "https://i.ytimg.com/vi/-4JMwHq31pk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCUnpnq_Z3oho0fIyipmptBYBt0zw",
-      "description": "The actor’s new movie is expected to release later this year."
+      "description": "The actor’s new movie is expected to release later this year.",
+      "id": "7d41"
     },
     {
       "title": "Priyanka Chopra reveals secrets behind her latest photoshoot",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSGFe1mvpi5he-ayyA12-3ZiUKpDKrck06BA&s",
-      "description": "The global icon opens up about her career and personal life."
+      "description": "The global icon opens up about her career and personal life.",
+      "id": "c678"
     },
     {
       "title": "Alia Bhatt shares her fitness regime",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGyfWPxjk3LUvPppRJe4umkRzpWvJf2PSMg&s",
-      "description": "The actress talks about how she stays in shape for her roles."
+      "description": "The actress talks about how she stays in shape for her roles.",
+      "id": "8267"
     },
     {
       "title": "Ranveer Singh surprises fans with a new look",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLwjMBMkvb3zo4mJ32RzB6sVlo0URmYgqLcA&s",
-      "description": "The actor shares his bold transformation on social media."
+      "description": "The actor shares his bold transformation on social media.",
+      "id": "53b3"
     },
     {
       "title": "Kareena Kapoor Khan's maternity photos go viral",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwdii8sz2efro2GswmxOUH3_AxpxrDS9BQMA&s",
-      "description": "Kareena’s pregnancy shoot gets everyone talking."
+      "description": "Kareena’s pregnancy shoot gets everyone talking.",
+      "id": "e424"
     },
     {
       "title": "Salman Khan to launch a new reality show",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthMJnz47nL3KitHJeTVx98rbZSw0MFFmMaw&s",
-      "description": "The actor will host a new season of his famous TV show."
+      "description": "The actor will host a new season of his famous TV show.",
+      "id": "4d63"
     },
     {
       "title": "Deepika Padukone opens up about her struggles with mental health",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWD4kr5k9A14Z40rcXcZB0-ZUZz7fLwrmfXA&s",
-      "description": "The actress discusses her journey to recovery in an emotional interview."
+      "description": "The actress discusses her journey to recovery in an emotional interview.",
+      "id": "b1e3"
     },
     {
       "title": "Ranbir Kapoor’s latest movie sets box office records",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO6gCC4RLGNsIvSeRpIp0Y0aYR13d8HzrX1A&s",
-      "description": "The actor’s film grosses over ₹500 crore globally in its opening week."
+      "description": "The actor’s film grosses over ₹500 crore globally in its opening week.",
+      "id": "2caf"
     },
     {
       "title": "Katrina Kaif welcomes a new addition to her family",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgm8qBvqoFSo-REz45_IfL9MqlFewmpdmtcw&s",
-      "description": "The actress shares her excitement about becoming a mother."
+      "description": "The actress shares her excitement about becoming a mother.",
+      "id": "0da7"
     }
   ],
   "articles": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Celebrity Fashion Trends of 2024",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7upK9Kndgs_hWFK6Dd6IEdMEO_xnssjTK2Q&s",
       "description": "A look at the most popular celebrity fashion trends this year."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Top 5 Celebrity Couples to Watch",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIuZWNgjii3iusZItoI7X5FBVXYfg4DC4v2Q&s",
       "description": "These celebrity couples are making headlines with their relationships."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Rise of Wellness in Celebrities' Lives",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1DwIPwG6DTsvg5b3nsbu6nUa3EBaPNyWZw&s",
       "description": "Explore how wellness practices are becoming a trend among celebrities."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Inside the World of Celebrity Social Media",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbtDKu69asJ_oGXO6Wvq3cV7g6vmkftX9PMA&s",
       "description": "How celebrities are using social media to connect with fans and brands."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Exclusive Interview with Bollywood Star XYZ",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiW2GDFSf7v4VzUW02KeP8apHINsXBsTIWlQ&s",
       "description": "An in-depth interview with Bollywood’s rising star XYZ."
@@ -307,13 +318,13 @@
       "title": "anushka",
       "description": "interview",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiW2GDFSf7v4VzUW02KeP8apHINsXBsTIWlQ&s",
-      "id": 6
+      "id": "6"
     }
   ],
   "notifications": [
     {
       "message": "New article posted: anushka",
-      "id": 1
+      "id": "1"
     }
   ],
   "users": [
@@ -340,6 +351,11 @@
       "name": "Satya Priya",
       "email": "satyapavani889@gmail.com",
       "password": "dgsublknXZM"
+    },
+    {
+      "id": "aaa2",
+      "email": "satyapavani889@gmail.com",
+      "password": "Pavani@123"
     }
   ]
 }

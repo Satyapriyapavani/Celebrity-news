@@ -11,6 +11,7 @@ import NotificationsPage from "./components/Notification";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import SignUpPage from "./components/signup";
+import ProfilePage from "./components/ProfilePage";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           <Route path="/" element={<LandingPage />} /> 
           <Route path="/notifications" element={<NotificationsPage/>} />
           <Route path="*" element={<SignUpPage/>} /> {/* Default route */}
+          <Route path="/profile" element={<ProfilePage/>}/>
         </Routes>
       <Footer/>
     </Router>
