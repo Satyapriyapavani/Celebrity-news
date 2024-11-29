@@ -10,6 +10,7 @@ import LifestylePage from "./components/Lifestyle";
 import NotificationsPage from "./components/Notification";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
+import SignUpPage from "./components/signup";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -28,12 +29,14 @@ function App() {
       
         <Routes>
           <Route path="/login" element={<LoginPage handleLogin={handleLogin} />} />
+          <Route path="/signup" element={<SignUpPage/>}/>
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/newsfeed" element={<NewsFeed/>} />
           <Route path="/cinema" element={<CinemaPage/>} />
           <Route path="/lifestyle" element={<LifestylePage/>} />
           <Route path="/" element={<LandingPage />} /> 
           <Route path="/notifications" element={<NotificationsPage/>} />
+          <Route path="*" element={<SignUpPage/>} /> {/* Default route */}
         </Routes>
       <Footer/>
     </Router>

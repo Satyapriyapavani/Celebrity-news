@@ -315,5 +315,31 @@
       "message": "New article posted: anushka",
       "id": 1
     }
+  ],
+  "users": [
+    {
+      "id": "ac7f",
+      "name": "Satya Priya",
+      "email": "satyapavani889@gmail.com",
+      "password": "pAVANI@123"
+    },
+    {
+      "id": "630c",
+      "name": "Satya Priya",
+      "email": "satyapavani889@gmail.com",
+      "password": "PAvani@123"
+    },
+    {
+      "id": "47a9",
+      "name": "Satya Priya",
+      "email": "satyapavani889@gmail.com",
+      "password": "Pavani@123"
+    },
+    {
+      "id": "2680",
+      "name": "Satya Priya",
+      "email": "satyapavani889@gmail.com",
+      "password": "dgsublknXZM"
+    }
   ]
 }
