@@ -12,6 +12,10 @@ const NotificationsPage = () => {
       .catch((error) => console.error("Error fetching data: ", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="notifications-page">
       <h2>Notifications</h2>

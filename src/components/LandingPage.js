@@ -17,6 +17,9 @@ const LandingPage = () => {
       .catch((error) => console.error("Error fetching news data:", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const filteredNews = (topNews || []).filter(news =>
     news.title.toLowerCase().includes(searchQuery.toLowerCase())

@@ -22,6 +22,10 @@ const LifestylePage = () => {
       .catch((error) => console.error("Error fetching data: ", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setNewArticle({ ...newArticle, [name]: value });

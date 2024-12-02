@@ -28,6 +28,9 @@ const CinemaPage = () => {
       .catch((error) => console.error("Error fetching Telugu movies:", error));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const showNextHindiMovies = () => {
     if (hindiStartIndex + moviesPerClick < hindiMovies.length) {
       setHindiStartIndex(hindiStartIndex + moviesPerClick);
